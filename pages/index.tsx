@@ -10,10 +10,10 @@ export default function Home() {
     <>
       <div className="grid min-h-full grid-cols-1 grid-rows-[1fr,auto,1fr] bg-white lg:grid-cols-[max(50%,36rem),1fr]">
         <header className="mx-auto w-full max-w-7xl px-6 pt-6 sm:pt-10 lg:col-span-2 lg:col-start-1 lg:row-start-1 lg:px-8">
-          <a href="/">
+          <span>
             <span className="sr-only">Your Company</span>
             <img className="h-32 w-auto sm:h-17" src="/logo.svg" alt="" />
-          </a>
+          </span>
         </header>
         <main className="mx-auto w-full max-w-7xl px-6 py-24 sm:py-32 lg:col-span-2 lg:col-start-1 lg:row-start-2 lg:px-8">
           <div className="max-w-lg">
